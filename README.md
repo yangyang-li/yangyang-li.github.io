@@ -57,7 +57,7 @@ The generated `_site/` directory is ignored.
 
 ## Deployment
 
-Every push to `master` runs `.github/workflows/deploy.yml`. The workflow builds the Jekyll site and publishes the generated output to `gh-pages`. GitHub Pages should be configured to serve the `gh-pages` branch from `/ (root)`.
+Every push to `master` runs `.github/workflows/deploy.yml`. The workflow installs the pinned al-folio gems, builds the Jekyll site, and deploys the generated `_site` artifact with GitHub's official Pages Actions. In repository **Settings → Pages**, set **Source** to **GitHub Actions**; do not use GitHub's legacy branch-based Jekyll builder, because it cannot load the `al_folio_core` theme gem.
 
 The old Dinky-based homepage is preserved in the remote `legacy-site` branch.
 
