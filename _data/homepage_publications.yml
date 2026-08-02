@@ -1,0 +1,22 @@
+# Homepage selection manifest. Keys correspond to records in papers.bib.
+
+social:
+  title: Social Computing & Content Security
+  keys:
+    - tongADViRDSAssessmentDomestic2024
+    - liFocusingRelevantResponses2024
+    - yangFedACKFederatedAdversarial2023
+
+graph:
+  title: Graph Learning & Trustworthy AI
+  keys:
+    - liGNNRIDetectingAnomalous2025
+    - gaoGraphAnomalyDetection2024
+    - yangRoSGASAdaptiveSocial2023
+
+systems:
+  title: Multimodal & Intelligent Systems
+  keys:
+    - yaoSourceFreeObjectDetection2025
+    - liTestAgentMultimodalApp2024
+    - wangLeveragingLLMsInfluence2025

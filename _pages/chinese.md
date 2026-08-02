@@ -1,21 +1,87 @@
 ---
 layout: page
 permalink: /chinese/
-title: 中文简介
+title: 中文
 description: 李阳阳博士的中文学术履历。
 nav: true
 nav_order: 1
 ---
 
 <style>
+  body {
+    font-family: Roboto, "Noto Serif SC", "Songti SC", "STSong", SimSun, sans-serif;
+    background-color: #fbfaf6;
+    background-image: linear-gradient(rgba(251, 250, 246, 0.78), rgba(251, 250, 246, 0.86)), url("{{ '/assets/img/shanshui-hero.png' | relative_url }}");
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  html[data-theme="light"] {
+    --global-theme-color: #2f6b5f;
+    --global-hover-color: #244f47;
+    --global-hover-text-color: #ffffff;
+  }
+  html[data-theme="dark"] {
+    --global-theme-color: #78b6a7;
+    --global-hover-color: #9bc9bd;
+    --global-hover-text-color: #171b1a;
+  }
+  a, .navbar-nav .nav-item.active > .nav-link { color: #2f6b5f !important; }
+  a:hover, .navbar-nav .nav-link:hover { color: #244f47 !important; }
+  html[data-theme="dark"] a, html[data-theme="dark"] .navbar-nav .nav-item.active > .nav-link { color: #78b6a7 !important; }
+  html[data-theme="dark"] a:hover, html[data-theme="dark"] .navbar-nav .nav-link:hover { color: #9bc9bd !important; }
+  .navbar-nav .nav-item:not(.active) > .nav-link { color: var(--global-text-color) !important; }
+  html[data-theme="dark"] body {
+    background-color: #171b1a;
+    background-image: linear-gradient(rgba(23, 27, 26, 0.74), rgba(23, 27, 26, 0.86)), url("{{ '/assets/img/shanshui-hero.png' | relative_url }}");
+  }
   .chinese-page, .chinese-page h1, .chinese-page h2, .chinese-page h3, .chinese-page h4 {
     font-family: "Noto Serif SC", "Songti SC", "STSong", SimSun, serif;
   }
-  .chinese-page { line-height: 1.95; text-align: justify; }
-  .chinese-page h2 { padding-bottom: 0.35rem; border-bottom: 1px solid rgba(47, 107, 95, 0.18); }
+  .post > .post-header { display: none; }
+  .chinese-page {
+    max-width: 58rem;
+    line-height: 1.85;
+    text-align: left;
+  }
+  .chinese-page h1 {
+    margin: 0 0 0.35rem;
+    font-size: clamp(1.9rem, 4vw, 2.5rem);
+  }
+  .chinese-page h2 {
+    margin: 2.6rem 0 1rem;
+    padding-bottom: 0.45rem;
+    border-bottom: 1px solid rgba(47, 107, 95, 0.24);
+    color: #2f6b5f !important;
+    font-size: clamp(1.35rem, 3vw, 1.7rem);
+  }
+  .chinese-page h3 {
+    margin: 1.65rem 0 0.65rem;
+    font-size: 1.15rem;
+  }
+  .chinese-page h4 {
+    margin: 0 0 0.15rem;
+    color: var(--global-text-color);
+    font-size: 1.05rem;
+    font-weight: 500;
+  }
+  .chinese-page p { margin: 0.25rem 0 0.8rem; }
+  .chinese-page ul,
+  .chinese-page ol {
+    margin: 0.55rem 0 1.15rem;
+    padding-left: 1.55rem;
+  }
+  .chinese-page li { padding-left: 0.2rem; }
+  .chinese-page li + li { margin-top: 0.42rem; }
+  html[data-theme="dark"] .chinese-page h2 { color: #78b6a7 !important; }
+  @media (max-width: 576px) {
+    body { background-position: 62% top; background-attachment: scroll; }
+    .chinese-page { line-height: 1.75; }
+    .chinese-page h2 { margin-top: 2rem; }
+  }
 </style>
 
-<div lang="zh-CN" class="chinese-page">
+<div lang="zh-CN" class="chinese-page" markdown="1">
 
 # 李阳阳
 
@@ -71,26 +137,22 @@ nav_order: 1
 
 ## 知识产权
 
+### 发明专利
+
+{% for record in site.data.intellectual_property.invention_patents %}
+1. {{ record.title }}{% if record.number %}，{{ record.number }}{% endif %}{% if record.status %}，{{ record.status }}{% endif %}
+{% endfor %}
+
 ### 外观设计专利
 
-- 带模型编辑图形用户界面的显示屏幕面板，CN202230281902.2，已授权
+{% for record in site.data.intellectual_property.design_patents %}
+1. {{ record.title }}{% if record.number %}，{{ record.number }}{% endif %}{% if record.status %}，{{ record.status }}{% endif %}
+{% endfor %}
 
 ### 软件著作权
 
-- 社交网络机器账号识别系统软件
-- 舆情事件多属性数据处理系统
-- 舆情大数据分布式索引系统
-- 粤语—普通话机器翻译软件
-- 重大突发事件网络舆情监测系统软件
-- 社交媒体情感分析系统
-- 基于深度学习的安卓恶意应用智能检测软件
-- 综合绩效考核管理系统软件
-- 互联网舆情分析系统
-- 社交网络意见领袖挖掘软件
-- 移动互联网恶意流量自适应识别系统
-- 互联网敏感信息自适应识别系统
-- 互联网音视频数据采集系统
-- 移动应用程序用户发现系统
-- 移动应用软件流量分析系统
+{% for record in site.data.intellectual_property.software_copyrights %}
+1. {{ record.title }}{% if record.number %}，{{ record.number }}{% endif %}{% if record.status %}，{{ record.status }}{% endif %}
+{% endfor %}
 
 </div>

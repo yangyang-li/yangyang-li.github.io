@@ -20,6 +20,7 @@ vendor
 liyangyang.com/
 wordpress/
 wordpress-backup/
+_bibliography/papers_old.bib
 *.sql
 *.sql.gz
 wp-config.php

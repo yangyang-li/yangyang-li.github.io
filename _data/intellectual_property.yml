@@ -1,0 +1,70 @@
+# Structured source for the intellectual-property section on the Chinese profile.
+# Add new records here; _pages/chinese.md renders this file automatically.
+
+invention_patents:
+  - title: 一种可调优的大语言模型主动推荐智能体系统
+    number: CN202511220916.2
+    status: 已授权
+  - title: 基于先验规则和多模态大模型的移动端智能体信息处理系统
+    number: CN202510266979.5
+    status: 已授权
+  - title: 一种基于远程监督的立场检测方法、系统及终端
+    number: CN202410498176.8
+  - title: 基于结构熵的社交机器人行为检测方法和电子设备
+    number: CN202311134484.4
+  - title: 一种隐私预算的确定方法
+    number: CN202310123883.4
+    status: 已授权
+  - title: 一种基于元图的网络恶意行为检测方法及设备
+    number: CN202310125438.1
+    status: 已授权
+  - title: 一种数据纵向切分下保护隐私的动态关联预测方法及装置
+    number: CN202211337038.9
+    status: 已授权
+  - title: 一种机器账号检测方法、系统、设备及存储介质
+    number: CN202211513595.1
+    status: 已授权
+  - title: 一种用户分类模型训练方法、用户检测方法
+    number: CN202211335748.8
+    status: 已授权
+  - title: 一种多视角张量图向量嵌入表征获取方法
+    number: CN202211340643.1
+  - title: 一种多模态事件检测方法及装置
+    number: CN202210085708.6
+
+design_patents:
+  - title: 带模型编辑图形用户界面的显示屏幕面板
+    number: CN202230281902.2
+    status: 已授权
+
+software_copyrights:
+  - title: 社交网络机器账号识别系统软件
+    number: 软著登字第8303682号
+  - title: 舆情事件多属性数据处理系统
+    number: 软著登字第6735807号
+  - title: 舆情大数据分布式索引系统
+    number: 软著登字第6735811号
+  - title: 粤语-普通话机器翻译软件
+    number: 软著登字第5443374号
+  - title: 重大突发事件网络舆情监测系统软件
+    number: 软著登字第5443367号
+  - title: 社交媒体情感分析系统
+    number: 软著登字第5441243号
+  - title: 基于深度学习的安卓恶意应用智能检测软件
+    number: 软著登字第5440031号
+  - title: 综合绩效考核管理系统软件
+    number: 软著登字第5437645号
+  - title: 互联网舆情分析系统
+    number: 软著登字第5147719号
+  - title: 社交网络意见领袖挖掘软件
+    number: 软著登字第5146937号
+  - title: 移动互联网恶意流量自适应识别系统软件
+    number: 软著登字第3767449号
+  - title: 互联网敏感信息自适应识别系统软件
+    number: 软著登字第3354634号
+  - title: 互联网音视频数据采集系统软件
+    number: 软著登字第2799968号
+  - title: 移动应用程序用户发现系统软件
+    number: 软著登字第2430049号
+  - title: 移动应用软件流量分析系统软件
+    number: 软著登字第2350280号
