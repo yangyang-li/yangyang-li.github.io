@@ -4,15 +4,6 @@ title: Home
 permalink: /
 subtitle: Senior Engineer (Professor-level) · Academy of Cyber · Beijing, China
 
-profile:
-  align: right
-  image: li-mark.jpg
-  image_circular: false
-  more_info: >
-    <p>Institute of Social Computing</p>
-    <p>Academy of Cyber</p>
-    <p>Beijing, China</p>
-
 selected_papers: true
 social: true
 
