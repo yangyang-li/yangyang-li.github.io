@@ -17,4 +17,3 @@ For research collaboration, academic service, and student enquiries, please cont
 - **ResearchGate:** [Yangyang Li](https://www.researchgate.net/profile/Yangyang-Li-22)
 
 Please include a concise subject line and sufficient context for collaboration requests.
-

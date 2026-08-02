@@ -39,8 +39,8 @@ nav_order: 3
 
 ### Guest Editor
 
-- *Electronics*, Special Issue “Advances in Social Bots,” 2025–2026
-- *Electronics*, Special Issue “Intelligent Data Analysis in Cyberspace,” 2023
+- _Electronics_, Special Issue “Advances in Social Bots,” 2025–2026
+- _Electronics_, Special Issue “Intelligent Data Analysis in Cyberspace,” 2023
 
 ### Reviewer
 
@@ -57,4 +57,3 @@ Supervised undergraduate and master's research in abnormal-account detection, so
 - Member, ACM; Member, ACM SIGWEB China Chapter
 - Member, Chinese Association for Artificial Intelligence (CAAI)
 - Senior Member, China Institute of Communications (CIC)
-

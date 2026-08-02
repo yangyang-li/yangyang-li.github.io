@@ -47,4 +47,3 @@ I collaborate with researchers across computer science, artificial intelligence,
 ## Current Focus
 
 My current work brings together graph-based reasoning, multimodal learning, and foundation models to study trustworthy information diffusion and intelligent agents in open social environments.
-

@@ -16,4 +16,3 @@ The bibliography below is generated from a single BibTeX catalogue. Records were
 {% bibliography %}
 
 </div>
-
