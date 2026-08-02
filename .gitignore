@@ -1,0 +1,36 @@
+_site
+.bundle
+.DS_store
+.idea
+.jekyll-cache
+.jekyll-metadata
+.ruby-version
+.sass-cache
+.tweet-cache
+.venv
+assets/libs/
+assets/rendercv/rendercv_output/*.typ
+al-folio-upgrade-report.md
+node_modules/
+output/playwright/
+test-results/
+vendor
+
+# Local source material and migration archives (never publish)
+liyangyang.com/
+wordpress/
+wordpress-backup/
+*.sql
+*.sql.gz
+wp-config.php
+
+# Local secrets and editor/runtime files
+.env
+.env.*
+!.env.example
+*.log
+Thumbs.db
+
+# Python bytecode from bin/ helper scripts
+__pycache__/
+*.pyc
