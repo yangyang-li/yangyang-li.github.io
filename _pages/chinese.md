@@ -7,6 +7,14 @@ nav: true
 nav_order: 1
 ---
 
+<style>
+  .chinese-page, .chinese-page h1, .chinese-page h2, .chinese-page h3, .chinese-page h4 {
+    font-family: "Noto Serif SC", "Songti SC", "STSong", SimSun, serif;
+  }
+  .chinese-page { line-height: 1.95; text-align: justify; }
+  .chinese-page h2 { padding-bottom: 0.35rem; border-bottom: 1px solid rgba(47, 107, 95, 0.18); }
+</style>
+
 <div lang="zh-CN" class="chinese-page">
 
 # 李阳阳
